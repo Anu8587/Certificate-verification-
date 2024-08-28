@@ -1,0 +1,77 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body styling with a clean background */
+body {
+    background-color: #f4f4f4; /* Light grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Center container for content */
+.container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white; /* White background for the content box */
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 2.5rem;
+    color: #007bff; /* Blue color for emphasis */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Input field styling */
+input[type="text"] {
+    padding: 12px;
+    border: 1px solid #ced4da; /* Light grey border */
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff; /* Blue color on focus */
+}
+
+/* Button styling */
+button {
+    padding: 12px 20px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Result text styling */
+p#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
