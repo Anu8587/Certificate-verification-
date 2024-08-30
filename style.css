@@ -6,14 +6,46 @@
     font-family: 'Arial', sans-serif;
 }
 
-/* Body styling with a clean background */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body, html {
+    overflow: auto;
+}
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 body {
-    background-color: #f4f4f4; /* Light grey background */
+    background-color: #2a3b35; /* Deep muted green */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: 100vh;
-    color: #333;
+    z-index: 100;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 400px;
+}
+.logo img {
+    max-height: 80px;
 }
 
 /* Center container for content */
