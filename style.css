@@ -44,7 +44,7 @@ header {
 }
 
 .logo img {
-    max-height: 40px; /* Small size for the logo */
+    max-height: 10px; /* Small size for the logo */
 }
 
 /* Center container for content */
