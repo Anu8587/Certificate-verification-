@@ -6,45 +6,14 @@
     font-family: 'Arial', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
-body, html {
-    overflow: auto;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
+/* Body styling with a clean background */
 body {
-    background-color: #2a3b35; /* Deep muted green */
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    width: 100%;
+    background-color: #f4f4f4; /* Light grey background */
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-}
-
-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px 20px; /* Adjusted padding to fit the logo properly */
-    z-index: 100;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    max-height: 10px; /* Small size for the logo */
+    height: 100vh;
+    color: #333;
 }
 
 /* Center container for content */
