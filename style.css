@@ -34,10 +34,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 30px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    padding: 10px 20px; /* Adjusted padding to fit the logo properly */
     z-index: 100;
 }
 
@@ -47,7 +44,7 @@ header {
 }
 
 .logo img {
-    max-height: 40px; /* Smaller size for the logo */
+    max-height: 40px; /* Small size for the logo */
 }
 
 /* Center container for content */
@@ -109,4 +106,3 @@ p#result {
     font-weight: bold;
     color: #333;
 }
-
