@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 /* Reset basic styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Body styling with a clean background */
+/* Body styling with a matching background */
 body {
-    background-color: #f4f4f4; /* Light grey background */
+    background-color: #2a3b35; /* Deep muted green */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: #333;
+    color: #f5f0e3; /* Cream color for text */
+    position: relative; /* Ensure absolute positioning of child elements works */
 }
 
 /* Center container for content */
@@ -22,7 +25,7 @@ body {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    background-color: white; /* White background for the content box */
+    background-color: #1f2e2a; /* Darker green background for the content box */
     max-width: 400px;
     width: 100%;
 }
@@ -30,7 +33,7 @@ body {
 /* Heading styling */
 h1 {
     font-size: 2.5rem;
-    color: #007bff; /* Blue color for emphasis */
+    color: #c75b39; /* Muted tomato color for emphasis */
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -38,7 +41,7 @@ h1 {
 /* Input field styling */
 input[type="text"] {
     padding: 12px;
-    border: 1px solid #ced4da; /* Light grey border */
+    border: 1px solid #bfae91; /* Light brownish tan border */
     border-radius: 5px;
     margin-bottom: 15px;
     font-size: 1rem;
@@ -48,13 +51,13 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-    border-color: #007bff; /* Blue color on focus */
+    border-color: #c75b39; /* Muted tomato color on focus */
 }
 
 /* Button styling */
 button {
     padding: 12px 20px;
-    background-color: #007bff; /* Blue color */
+    background-color: #c75b39; /* Muted tomato color */
     color: white;
     border: none;
     border-radius: 5px;
@@ -65,7 +68,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #8e3925; /* Darker tomato on hover */
 }
 
 /* Result text styling */
@@ -73,5 +76,67 @@ p#result {
     margin-top: 20px;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #333;
+    color: #f5f0e3; /* Cream color */
+}
+
+/* Logo styling */
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 150px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.top-right a {
+    color: #f0e8d0; /* Soft off-white color */
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #2a3b35; /* Deep muted green background */
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.top-right a:hover {
+    background-color: #d5bfa8; /* Tan background on hover */
+    color: #2a3b35; /* Dark green text color on hover */
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.bottom-right {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+.bottom-right a {
+    color: #f0e8d0; /* Soft off-white color */
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #2a3b35; /* Deep muted green background */
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bottom-right a:hover {
+    background-color: #d5bfa8; /* Tan background on hover */
+    color: #2a3b35; /* Dark green text color on hover */
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
