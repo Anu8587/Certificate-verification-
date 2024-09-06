@@ -27,7 +27,9 @@ const certificateData = [
     { name: "Adarsh Kumar", department: "Bangalore City Co-ordination", certificateNumber: "CT/2024/026" },
     { name: "Sumit Singh", department: "Documentation Department", certificateNumber: "CT/2024/027" },
     { name: "Prachi Bothra", department: "Female's Department", certificateNumber: "CT/2024/028" },
-    { name: "Ayush Raj", department: "Chandigarh and Jalandhar City Co-ordination", certificateNumber: "CT/2024/029" }
+    { name: "Ayush Raj", department: "Chandigarh and Jalandhar City Co-ordination", certificateNumber: "CT/2024/029" },
+    { name: "Maria Paul", department: "Head of Documentation Department", certificateNumber: "CT/2024/030" },
+    { name: "Prateek Singh", department: "Head of Technical Department", certificateNumber: "CT/2024/031" }
 ];
 
 // Function to verify the certificate number and show the popup
