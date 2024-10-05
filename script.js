@@ -29,7 +29,11 @@ const certificateData = [
     { name: "Prachi Bothra", department: "Female's Department", certificateNumber: "CT/2024/028" },
     { name: "Ayush Raj", department: "Chandigarh and Jalandhar City Co-ordination", certificateNumber: "CT/2024/029" },
     { name: "Maria Paul", department: "Head of Documentation Department", certificateNumber: "CT/2024/030" },
-    { name: "Prateek Singh", department: "Head of Technical Department", certificateNumber: "CT/2024/031" }
+    { name: "Prateek Singh", department: "Head of Technical Department", certificateNumber: "CT/2024/031" },
+    { name: "Ridhi Sehgal", Event: "Scribble Night", certificateNumber: "FC/2024/001" },
+    { name: "Ananya Mishra", Event: "Scribble Night", certificateNumber: "FC/2024/002" },
+    { name: "Muskan Verma", Event: "Scribble Night", certificateNumber: "FC/2024/003" }
+   
 ];
 
 // Function to verify the certificate number and show the popup
