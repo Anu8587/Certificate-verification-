@@ -33,6 +33,17 @@ const certificateData = [
     { name: "Ridhi Sehgal", Event: "Scribble Night", certificateNumber: "FC/2024/001" },
     { name: "Ananya Mishra", Event: "Scribble Night", certificateNumber: "FC/2024/002" },
     { name: "Muskan Verma", Event: "Scribble Night", certificateNumber: "FC/2024/003" }
+    { name: "Prithibe Majumder", Event: "Pandal Hopping", certificateNumber: "TC/2024/001" }
+ { name: "Urvashi Jain", Event: "Pandal Hopping", certificateNumber: "TC/2024/002" }
+ { name: "Priti Ghosh", Event: "Pandal Hopping", certificateNumber: "TC/2024/003" }
+ { name: "Sahil Kamble", Event: "Pandal Hopping", certificateNumber: "TC/2024/004" }
+ { name: "Vignesh Sha SI", Event: "Pandal Hopping", certificateNumber: "TC/2024/005" }
+ { name: "Adwait Keshari", Event: "Pandal Hopping", certificateNumber: "TC/2024/006" }
+ { name: "Shubham Kalosiya", Event: "Pandal Hopping", certificateNumber: "TC/2024/007" }
+ { name: "Manish kumar", Event: "Pandal Hopping", certificateNumber: "TC/2024/008" }
+ { name: "Deepika Kumari", Event: "Pandal Hopping", certificateNumber: "TC/2024/009" }
+ { name: "Satyam Pandey", Event: "Pandal Hopping", certificateNumber: "TC/2024/010" }
+ { name: "Vishnu Maddheshiya", Event: "Pandal Hopping", certificateNumber: "TC/2024/011" }
    
 ];
 
