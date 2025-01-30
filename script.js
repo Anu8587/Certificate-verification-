@@ -44,6 +44,7 @@ const certificateData = [
  { name: "Deepika Kumari", Event: "Pandal Hopping", certificateNumber: "TC/2024/009" }
  { name: "Satyam Pandey", Event: "Pandal Hopping", certificateNumber: "TC/2024/010" }
  { name: "Vishnu Maddheshiya", Event: "Pandal Hopping", certificateNumber: "TC/2024/011" }
+ { name: "Suhani Saxena", Event: "Pandal Hopping", certificateNumber: "TC/2024/012" }
    
 ];
 
